@@ -10,7 +10,7 @@ namespace MovieCatalog.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index","Movies");
         }
 
         public ActionResult About()
