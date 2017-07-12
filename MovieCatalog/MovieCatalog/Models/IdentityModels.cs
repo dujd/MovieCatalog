@@ -29,5 +29,11 @@ namespace MovieCatalog.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MovieCatalog.Models.Genre> Genres { get; set; }
+
+        public System.Data.Entity.DbSet<MovieCatalog.Models.Rating> Ratings { get; set; }
+
+        public System.Data.Entity.DbSet<MovieCatalog.Models.Movie> Movies { get; set; }
     }
 }
