@@ -7,13 +7,13 @@ namespace MovieCatalog.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialCreate : IMigrationMetadata
+    public sealed partial class YactoSQL : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialCreate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(YactoSQL));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707121322012_InitialCreate"; }
+            get { return "201707121432230_YactoSQL"; }
         }
         
         string IMigrationMetadata.Source
